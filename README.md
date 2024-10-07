@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Temiloluwa16/social-links-profile.git)
+- Solution URL: [Add solution URL here](https://github.com/Temiloluwa16/social-links-profile)
 - Live Site URL: [Add live site URL here](https://laura-social-links.netlify.app/)
 
 ## My process
