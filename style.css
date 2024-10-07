@@ -2,8 +2,14 @@
 
 body {
     background-color: #141414;
-   font-family: "Inter", sans-serif;
-   text-align: center;
+    font-family: "Inter", system-ui;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
 }
 
 
@@ -12,10 +18,48 @@ body {
     height: 80px;
     border-radius: 50%;
     object-fit: cover;
+    
+    
 }
  
 li {
     list-style: none;
+    border: 1px solid #333333;
+    padding: 10px;
+    margin: 10px;
+    background-color: #333333;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
     
+}
+
+.list-item {
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
     
+}
+
+ li:hover{
+    background-color: #000;
+
+}
+.container {
+    width: 350px;
+    background-color:#1F1F1F ;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h2 {
+    color: #FDFDFD;
+}
+
+.profile-container {
+    margin-top: 30px;
 }
